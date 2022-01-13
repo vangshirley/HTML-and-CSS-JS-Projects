@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid gallery">
+    <div class="row-fluid">
+        <div class="col-sm-12">
+            <h3 class="text-info">Photo Gallery</h3>
+        </div>
+    </div>
+    <div class="row-fluid">
+        <div class="col-sm-12">
+            <ul class="image-list">
+                <li><img src="http://lorempixel.com/400/200/animals/6" alt="Photo number 1" class="img-responsive img-thumbnail" onclick="view(this.src)"/></li>
+                <li><img src="http://lorempixel.com/400/200/animals/2" alt="Photo number 2" class="img-responsive img-thumbnail" onclick="view(this.src)"/></li>
+                <li><img src="http://lorempixel.com/400/200/animals/3" alt="Photo number 3" class="img-responsive img-thumbnail" onclick="view(this.src)"/></li>
+                <li><img src="http://lorempixel.com/400/200/animals/4" alt="Photo number 4" class="img-responsive img-thumbnail" onclick="view(this.src)" /></li>
+            </ul>
+             <div class="slider-controls" id="nav">
+                <span class="previous glyphicon glyphicon-arrow-left" id="prev" onclick="prev()"></span>
+                <span class="next glyphicon glyphicon-arrow-right" id="next" onclick="next()"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="pup" id="ov" onclick="hide2()">
+</div>
+<div class="viewer"id="viewer">
+</div>
+  </body>
+
+</html>
+Expand snippet
+javascript
+html
+css
+Share
+Follow
+edited Aug 27 '15 at 13:43
+
+Pierre Irani
+77944 silver badges1919 bronze badges
+asked Aug 27 '15 at 13:31
+
+pherum chheang
+966 bronze badges
+Add a comment
+1 Answer
+
+1
+
+By assigning the desired size of images to the div .viewer like below .viewer img{width:600px} you are forcing images to resize to the to fit the size wanted. below the working snippet.
+
+// Code goes here
+function view(src)
+            {
+                var viewer = document.getElementById("viewer");
+                viewer.innerHTML ='<img src="' + src + '" id="img"/>';
+                var img = document.getElementById("img");
+                var iw=0, ih=0;
+                var dw=0, dh=0;
+                img.onload=function(){
+                    document.getElementById("ov").style.display="block"; 
+                    viewer.style.display="block";
+                    document.getElementById("nav").style.display="block";
+                    iw = viewer.offsetWidth;
+                    ih = viewer.offsetHeight;
+                    dw = window.innerWidth;
+                    dh = window.innerHeight;
+                    viewer.style.top = parseInt(dh/2-ih/2) + "px";
+                    viewer.style.left = parseInt(dw/2-iw/2) + "px";
+                };
+            }
+            function hide2()
+            {
+                document.getElementById("viewer").style.display="none";
+                document.getElementById("ov").style.display="none";
+				        document.getElementById("nav").style.display="none";
+            }
+            }
