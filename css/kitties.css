@@ -1,0 +1,35 @@
+/* Set the background color of body to tan */
+body {
+    background-color: #f7e4d5;
+  }
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #EE8B2E;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 50px 10px 50px;
+  }
+
+  .button {
+    background-color: #AEE1B8; /* Green */
+    border: 0;
+    color: #000;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Montserrat;
+  }
+  
+  footer {
+    background-color: #fff;
+    color: #000;
+    font-family: montserrat;
+    font-weight: bold;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+}
