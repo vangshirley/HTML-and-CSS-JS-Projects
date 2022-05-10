@@ -9,3 +9,5 @@ This is a one page website for a makeup artist. It has a gallery showcasing wedd
 
 <b>Movie Theater Website</b>
 This is an example home page for a Movie theater that is styled using Bootstrap 4. It contains many Bootstrap components including but not limited to a navbar, jumbotron, form, cards, and dropdowns.
+
+<b>Kitties</b> This website was about kitties, and we wanted to ensure we captured the right emotions with typography, color schemes. 
