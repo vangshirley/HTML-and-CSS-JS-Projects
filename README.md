@@ -1,7 +1,7 @@
 # HTML-and-CSS-Projects
 <b><i>Hello, World!</i></b>
 <br>Shirley here! I am UI/UX Designer and graduate of the Tech Academy in Portland, OR.
-This contains all of my HTML and CSS projects during this course. Here are some of the main webpages.
+<br>This respository contains all of my HTML and CSS projects during this course. Here are some of the main webpages.
 
 <b>Space Station Website</b>
 This is an example home page for a Space Travel Company. It's styled using CSS and contains a navbar, image containers, and a form.
