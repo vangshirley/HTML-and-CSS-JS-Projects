@@ -8,8 +8,8 @@ This is an example home page for a Space Travel Company. It's styled using CSS a
 This is a one page website for a makeup artist. It has a gallery showcasing wedding makeup with her previous clients. 
 
 <b>Movie Theater Website</b>
-This is an example home page for a Movie theater that is styled using Bootstrap 4. It contains many Bootstrap components including but not limited to a navbar, jumbotron, form, cards, and dropdowns.
+<b>Bootstrap Project</b>This is an example home page for a Movie theater that is styled using <a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/" target="_blank">Bootstrap 4.</a> It contains many Bootstrap components including but not limited to a navbar, jumbotron, form, cards, and dropdowns. Which movie have you seen?
 
 <b>Kitties</b> This website was about kitties, and we wanted to ensure we captured the right emotions with typography, color schemes. 
 
-<b>Bootstrap Project</b> I used Bootstrap to create webpage for a Movie Cinema displaying current movies, showtimes, e-mail sign-ups.  
+
