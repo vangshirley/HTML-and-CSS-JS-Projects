@@ -1,5 +1,6 @@
 # HTML-and-CSS-Projects
-Hello, world! Shirley here. I am UX/UI Designer and graduated at the Tech Academy in Portland, OR.
+<b><i>Hello, World!</i></b>
+<br>Shirley here! I am UI/UX Designer and graduate of the Tech Academy in Portland, OR.
 This contains all of my HTML and CSS projects during this course. Here are some of the main webpages.
 
 <b>Space Station Website</b>
